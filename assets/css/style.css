@@ -1,6 +1,16 @@
 body {
   background: #fff;
   color: #222;
+  margin-top: 66px;
+}
+header {
+  height: 66px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #ddd;
+  z-index: 10;
 }
 a {
   text-decoration: none;
@@ -8,6 +18,7 @@ a {
 }
 .nav-link {
   font-size: 20px;
+  color: #000;
 }
 
 .logo-link {
@@ -60,4 +71,15 @@ li.list-group-item {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-top: 30px;
+}
+
+footer {
+  height: 30px;
+  background: #ddd;
+  text-align: center;
+}
+
+footer h6 {
+  line-height: 30px;
+  color: #000;
 }
