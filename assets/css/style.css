@@ -1,0 +1,63 @@
+body {
+  background: #fff;
+  color: #222;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.nav-link {
+  font-size: 20px;
+}
+
+.logo-link {
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.about-text-content {
+  padding: 150px 0;
+}
+
+li.list-group-item {
+  padding-left: 0;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: 30px;
+}
+
+.skill-container,
+.project-area,
+.schedule-area,
+.contact-area {
+  margin-bottom: 80px;
+}
+
+.skills-list h5 {
+  opacity: 0.8;
+}
+
+.project-area-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  margin-top: 30px;
+}
